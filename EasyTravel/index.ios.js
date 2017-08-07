@@ -1,6 +1,4 @@
 import { AppRegistry } from 'react-native';
 import App from './src/app';
 
-// AppRegistry.registerComponent('MovieTickets', () => App);
-
 AppRegistry.registerComponent('EasyTravel', () => App);

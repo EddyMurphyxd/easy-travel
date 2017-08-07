@@ -284,7 +284,7 @@ export default class MoviePopup extends Component {
             <TouchableHighlight
               underlayColor="#9575CD"
               style={styles.buttonContainer}
-              onPress={onBook}
+              onPress={() => onBook(movie)}
             >
               <Text style={styles.button}>Book My Tickets</Text>
             </TouchableHighlight>

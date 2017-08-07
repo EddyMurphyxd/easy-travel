@@ -8,11 +8,6 @@ import {
 import { defaultStyles } from './styles';
 
 export default class Confirmation extends Component {
-
-  static propTypes = {
-    code: PropTypes.string.isRequired,
-  }
-
   render() {
     const { code } = this.props;
     return (
